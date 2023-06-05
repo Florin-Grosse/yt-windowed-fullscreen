@@ -1,0 +1,1 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --screenshot="C:\tmp\screenshot.png" --window-size=1080,1080 "http://127.0.0.1:5500/store_data/icon/icon.html"

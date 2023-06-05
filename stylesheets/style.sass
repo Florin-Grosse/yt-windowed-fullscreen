@@ -1,0 +1,25 @@
+body:has(ytd-player#ytd-player[ywf-active])
+    overflow: hidden
+    
+ytd-player#ytd-player[ywf-active]
+    position: fixed
+    z-index: 10000000
+    inset: 0
+    max-height: unset
+    height: 100%
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    background: black
+
+    video
+        width: 100vw !important
+        height: 100vh !important
+        top: 0 !important
+        left: 0 !important
+        object-fit: contain
+
+    // prevent size toggle while in windowed fullscreen
+    .ytp-size-button
+        display: none !important

@@ -1,0 +1,14 @@
+{
+  "name": "yt-window-fullscreen",
+  "version": "0.1.0",
+  "main": "index.html",
+  "license": "ISC",
+  "scripts": {
+    "sass": "sass --watch --no-source-map ./",
+    "build": "sass --no-source-map ./ && sh build.sh"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
